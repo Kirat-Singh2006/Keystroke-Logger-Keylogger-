@@ -1,18 +1,25 @@
-# Keystroke-Logger-Keylogger-
-Keystroke Logger (Keylogger)
+Keystroke Logger (Educational Keylogging Demonstration)
 
-This script uses the pynput library to listen for and log keyboard input. It captures every key pressed and appends it to a file.
+Overview
+This project is an educational cybersecurity demonstration that shows how keystroke logging can be implemented using the pynput library. It captures keyboard input at the OS level and records it to a file for analysis.
 
-    ⚠️ For ethical, educational, and testing purposes only. Unauthorized use of keyloggers is illegal and unethical.
+Purpose
+The goal of this project is to help security students and engineers:
+	•	understand how keylogging malware operates internally
+	•	recognize the risks associated with input interception
+	•	improve detection and prevention strategies on monitored systems
 
-⚠️ Legal & Ethical Disclaimer
+Technical Details
+	•	Language: Python
+	•	Library: pynput
+	•	Functionality: Captures keyboard events and logs them locally
 
-This tool is intended strictly for:
+Defensive Perspective
+From a defensive standpoint, this project highlights:
+	•	how user input can be intercepted by malicious software
+	•	the importance of endpoint monitoring and behavioral detection
+	•	why application whitelisting and OS-level protections are critical
 
-    Ethical hacking labs
-
-    Authorized system monitoring
-
-    Educational cybersecurity training
-
-Do not deploy this on systems without explicit, informed consent of the user or owner. Misuse can lead to serious legal consequences.
+Disclaimer
+This project is intended strictly for educational, research, and authorized testing purposes in controlled environments.
+Unauthorized use of keylogging software is illegal and unethical.
